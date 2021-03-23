@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "GEN-UNIQUE"
+      "value": "dcadmin"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": ".Password1"
     },
     "domainName": {
-      "value": "corp.mydomain.com"
+      "value": "ogdwvdtest.nl"
     },
     "dnsPrefix": {
-      "value": "GEN-UNIQUE"
+      "value": "ogdwvdtest"
     }
   }
 }
