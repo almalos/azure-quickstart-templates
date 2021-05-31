@@ -6,13 +6,18 @@
       "value": "dcadmin"
     },
     "adminPassword": {
-      "value": ".Password1"
-    },
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/5efbc53e-3933-4d3e-abf3-788152e59fa5/resourceGroups/rg-wvd-001/providers/Microsoft.KeyVault/vaults/almaloswvdkv"
+                },
+                "secretName": "dcadmin"
+            }
+        },
     "domainName": {
-      "value": "ogdwvdtest.nl"
+      "value": "almalos.com"
     },
     "dnsPrefix": {
-      "value": "ogdwvdtest"
+      "value": "almalos"
     }
   }
 }
